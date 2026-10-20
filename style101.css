@@ -1,0 +1,26 @@
+students{
+    font-family: Arial;
+    background-color: aqua;
+    display: block;
+    padding: 20px;
+}
+
+student{
+    background-color: azure;
+    display: block;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+usn,branch{
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin: 5px;
+}
+name{
+    font-size: 22px;
+    color:blue;
+    font-weight: bolder;
+}

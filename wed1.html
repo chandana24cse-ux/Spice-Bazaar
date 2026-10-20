@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wednesday Offers</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin: 0;
+            background-color: #fff8f0;
+        }
+
+        h1 {
+            background-color: maroon;
+            color: white;
+            padding: 10px;
+        }
+
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        
+        .card {
+            background: white;
+            width: 250px;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        img {
+            width: 100%;
+            height: 150px;
+        }
+
+        .price {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .offer {
+            color: green;
+            font-weight: bold;
+        }
+
+        button {
+            background: maroon;
+            color: white;
+            border: none;
+            padding: 8px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        
+        @media (max-width: 600px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1> Wednesday Offers</h1>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="turmeric1.png">
+            <h3>Turmeric Powder</h3>
+            
+            <p class="offer">₹199</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="chilli2.png">
+            <h3>Chilli Powder</h3>
+            
+            <p class="offer">₹180</p>
+            <button>Buy Now</button>
+        </div>
+        
+
+    </div>
+
+</body>
+</html>
